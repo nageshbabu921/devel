@@ -1,0 +1,21 @@
+.full-width{
+    width:100%;
+}
+.background-image{
+    background-size: cover;
+    background-color:black;
+
+}
+.field{
+ width:1000px;
+    height: 50px;
+}
+.container{
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    content: normal;
+}
+ home{
+    color: orange;
+}
