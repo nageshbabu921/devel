@@ -12,12 +12,8 @@ document.onreadystatechange=()=>{
           testDiv.style.color='yellow';
 
         },3000)
-        const preloader = document.querySelector(".preloader");
 
-window.addEventListener("load", function () {
-  preloader.classList.add("hide-preloader");
-});
-
+        
             
     }
 }
