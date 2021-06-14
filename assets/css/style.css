@@ -12,8 +12,7 @@
 }
 .container{
     align-items: center;
-    margin: 0%;
-    padding: 0%;
+   
     content: normal;
 }
  home{
@@ -22,4 +21,29 @@
 a:hover{
 background-color: orange;
 }
+.image{
+    height: auto;
+    width:auto
+}
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    background-color
+}
+@media only screen and (max-width: 600px) {
+    li{
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (min-width: 60px) {
+    .background-image{
+        background-size: cover;
+        background-color:r;
+    
+    }
+  }
+  
 
