@@ -2,7 +2,9 @@ document.onreadystatechange=()=>{
     if(document.readyState==='complete'){
         const testDiv=document.getElementById('test');
         testDiv.style.color='lightblue';
-        
+        testDiv.onclick=()=>{
+            testDiv.style.backgroundColor='orange';
+        }
         setInterval(()=>{
           testDiv.style.color='lightgreen';
         },2000)
@@ -15,4 +17,3 @@ document.onreadystatechange=()=>{
             
     }
 }
-
